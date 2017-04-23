@@ -7,7 +7,10 @@ public class Greeter {
 
 
   private String name = "";
-
+  
+  public Greeter(String names){
+    name = names;
+  }
 
 
   public String getName() 
