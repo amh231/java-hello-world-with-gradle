@@ -38,7 +38,7 @@ public class Greeter {
 
     {
 
-       return "Hello!";
+       return "Hi!";
 
     }
 
@@ -46,7 +46,7 @@ public class Greeter {
 
     {
 
-       return "Hello " + name + "!";
+       return "Hi " + name + "!";
 
     }
 
