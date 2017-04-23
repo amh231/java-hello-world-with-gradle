@@ -4,13 +4,25 @@ public class TestGreeter {
 
   public static void main() {
     
-    Greeter test1 = new Greeter("Allyn");
-    Greeter test2 = new Greeter("Software Engineering");
-    Greeter test3 = new Greeter("NAMESSSS!"); 
+    /** -- Pass Test --
+    Greeter passTest1 = new Greeter("Allyn");
+    Greeter passTest2 = new Greeter("Software Engineering");
+    Greeter passTest3 = new Greeter("NAMESSSS!"); 
     
-    System.out.println( test1.sayHello() );
-    System.out.println( test2.sayHello() );
-    System.out.println( test3.sayHello() );
+    System.out.println( passTest1.sayHello() );
+    System.out.println( passTest2.sayHello() );
+    System.out.println( passTest3.sayHello() );
+    **/
+    
+    /** -- Fail Test -- **/
+    Greeter failTest1 = new Greeter("         ");
+    Greeter failTest2 = new Greeter();
+    Greeter failTest3 = new Greeter(1234);
+    
+    System.out.println( failTest1.sayHello() );
+    System.out.println( failTest2.sayHello() );
+    System.out.println( failTest3.sayHello() );
+    
   }
   
 }
